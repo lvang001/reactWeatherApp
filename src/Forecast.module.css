@@ -1,0 +1,29 @@
+.TextInput {
+    font-size: large;
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    margin: 5px auto;
+}
+.TextInput:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 3px 3px 10px rgb(50, 100, 153);
+}
+.Radio {
+    font-size: small;
+}
+.Button {
+    display: block;
+    margin: 10px auto;
+    padding: .5rem;
+    font-size: 1em;
+    background: rgb(76, 82, 82);
+    border-radius: 10em;
+    color: white;
+    cursor: pointer;
+    margin: 5px auto;
+}
+
+

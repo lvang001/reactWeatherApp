@@ -1,0 +1,12 @@
+
+    .Card {
+        background: #000000d0;
+        box-shadow: 8px 8px 15px rgba(0, 0, 0, 1);
+        padding: 3em;
+        border-radius: 15px;
+        width: 100%;
+        max-width: 400px;
+        margin: 1em;
+        color: white;
+    }
+    
