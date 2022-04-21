@@ -4,15 +4,17 @@ import './App.css';
 import Forecast from './Forecast.js';
 
 
+
 function App() {
    
   // useEffects();
   return (
     <div className="App">
-    <header className="App-header">
-      <h3>React Weather App</h3>
+    <header className=''>
+      
     </header>
     <main>
+    
       <Forecast />
     </main>
     <footer>

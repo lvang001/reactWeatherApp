@@ -1,12 +1,21 @@
 .App {
-  text-align: center;
-  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: white;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 120%;
+  background-image: url('https://source.unsplash.com/random/3200x1800/?weather');
 }
 
 
 
 
-.App-header {
+/* .App-header {
 
   min-height: ;
   display: flex;
@@ -15,7 +24,7 @@
   justify-content: center;
   font-size: calc(10px);
   color: white;
-}
+} */
 
 
 

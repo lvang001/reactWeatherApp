@@ -2,6 +2,15 @@ import React, { useState } from 'react';
 import Conditions from './Conditions';
 import classes from './Forecast.module.css';
 
+// function getDate () {
+//     let date = new Date()
+//     let displayDate = date.toDateString();
+//     return (
+//         <div>
+//            {displayDate}
+//         </div>
+//     )
+// }
 
 const Forecast = () => {
 
@@ -9,6 +18,7 @@ const Forecast = () => {
     let [zip, setCity] = useState('');
     let [unit, setUnit] = useState('imperial');
     const apiKey =`973777b137d46a204965f0cb350c9220`
+    
 
     function getForecast (e) {
         e.preventDefault();
@@ -19,7 +29,7 @@ const Forecast = () => {
     }
     return (
     <div className = {classes.Card}>
-        <h1>Weather</h1>
+        
         <form onSubmit={getForecast}>
                 <input
                     type="text"
@@ -29,9 +39,9 @@ const Forecast = () => {
                     value={zip}
                     onChange={(e) => setCity(e.target.value)}
                     />
-             
-                <button type="submit" className ={classes.Button}>Display Forecast</button>
-            </form>
+                <button type="submit" className ={classes.Button}>Display Forecast</button>  
+        </form>
+           
            <Conditions responseObj={responseObj}/>
     </div>
     )
